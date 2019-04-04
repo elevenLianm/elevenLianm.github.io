@@ -45,7 +45,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as blank to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -93,8 +93,8 @@ footer:
 # Valid values of language: deed.zh, deed.fr, deed.de, etc.
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
   language:
 
 # `Follow me on GitHub` banner in the top-right corner.
@@ -164,7 +164,7 @@ menu:
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -227,9 +227,9 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar2.jpeg
   # If true, the avatar would be dispalyed in circle.
-  rounded: false
+  rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
@@ -303,7 +303,7 @@ text_align:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post / page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -311,7 +311,7 @@ excerpt_description: true
 # Automatically Excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Read more button
@@ -412,7 +412,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # Enable "cheers" for archive page.
 cheers: true
