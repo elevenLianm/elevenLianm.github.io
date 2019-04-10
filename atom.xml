@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elevenlianm.com/"/>
-  <updated>2019-04-03T09:30:42.442Z</updated>
+  <updated>2019-04-10T13:07:12.943Z</updated>
   <id>http://elevenlianm.com/</id>
   
   <author>
@@ -17,26 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>服务器代码更新操作命令</title>
+    <link href="http://elevenlianm.com/2019/04/04/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A3%E7%A0%81%E6%9B%B4%E6%96%B0%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/"/>
+    <id>http://elevenlianm.com/2019/04/04/服务器代码更新操作命令/</id>
+    <published>2019-04-04T02:37:41.000Z</published>
+    <updated>2019-04-10T13:07:12.943Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="服务器代码更新操作命令"><a href="#服务器代码更新操作命令" class="headerlink" title="服务器代码更新操作命令"></a>服务器代码更新操作命令</h2><p><code>有关服务器代码更新的命令（仅自用）</code><br><a id="more"></a></p><h2 id="1-root账户登录"><a href="#1-root账户登录" class="headerlink" title="1. root账户登录"></a>1. root账户登录</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -l root -p 22 222.73.159.67</span><br></pre></td></tr></table></figure><h2 id="2-查看生产线程"><a href="#2-查看生产线程" class="headerlink" title="2. 查看生产线程"></a>2. 查看生产线程</h2><p><code>该操作需在root账户下进行</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -anp | grep 端口号（例如：8090、80）</span><br></pre></td></tr></table></figure><h2 id="3-杀死线程"><a href="#3-杀死线程" class="headerlink" title="3. 杀死线程"></a>3. 杀死线程</h2><p><code>该操作需在root账户下进行</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kill -9 线程号 （例如：126578）</span><br></pre></td></tr></table></figure><h2 id="4-启动程序"><a href="#4-启动程序" class="headerlink" title="4. 启动程序"></a>4. 启动程序</h2><p><code>以下命令都需要root账户下进行</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nohup ./mvnw -Pprod &amp;</span><br></pre></td></tr></table></figure><p><code>等上个指令执行完毕后执行</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail -f nohup.out</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;服务器代码更新操作命令&quot;&gt;&lt;a href=&quot;#服务器代码更新操作命令&quot; class=&quot;headerlink&quot; title=&quot;服务器代码更新操作命令&quot;&gt;&lt;/a&gt;服务器代码更新操作命令&lt;/h2&gt;&lt;p&gt;&lt;code&gt;有关服务器代码更新的命令（仅自用）&lt;/code&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="公司" scheme="http://elevenlianm.com/categories/%E5%85%AC%E5%8F%B8/"/>
+    
+    
+      <category term="服务器" scheme="http://elevenlianm.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>宝贝晚饭想吃啥？</title>
     <link href="http://elevenlianm.com/2019/04/03/dinner/"/>
     <id>http://elevenlianm.com/2019/04/03/dinner/</id>
     <published>2019-04-03T09:22:01.000Z</published>
-    <updated>2019-04-03T09:30:42.442Z</updated>
+    <updated>2019-04-10T13:05:55.756Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="如果不想出门"><a href="#如果不想出门" class="headerlink" title="如果不想出门"></a>如果不想出门</h1><blockquote><p>我给你点个外卖上去？</p></blockquote><h2 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h2><p><code>吉野家-单人串点套餐</code><br><img src="/2019/04/03/dinner/WechatIMG6.jpeg" alt="吉野家-单人串点套餐"><br><code>宾果餐厅-澳洲牛排</code><br><img src="/2019/04/03/dinner/WechatIMG5.jpeg" alt="宾果餐厅-澳洲牛排"><br><code>麻辣香锅-任性单人餐</code><br><img src="/2019/04/03/dinner/WechatIMG4.jpeg" alt="麻辣香锅-任性单人餐"><br>…</p><blockquote><p>或者其他的宝贝挑一挑</p></blockquote><h1 id="如果想出门"><a href="#如果想出门" class="headerlink" title="如果想出门"></a>如果想出门</h1><blockquote><p>现在外面有点<code>冷</code>啦，上衣一定要</p><h3>多套一件</h3><p></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="如果不想出门"><a href="#如果不想出门" class="headerlink" title="如果不想出门"></a>如果不想出门</h1><blockquote><p>我给你点个外卖上去？<br><a id="more"></a></p></blockquote><h2 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h2><p><code>吉野家-单人串点套餐</code><br><img src="/2019/04/03/dinner/WechatIMG6.jpeg" alt="吉野家-单人串点套餐"><br><code>宾果餐厅-澳洲牛排</code><br><img src="/2019/04/03/dinner/WechatIMG5.jpeg" alt="宾果餐厅-澳洲牛排"><br><code>麻辣香锅-任性单人餐</code><br><img src="/2019/04/03/dinner/WechatIMG4.jpeg" alt="麻辣香锅-任性单人餐"><br>…</p><blockquote><p>或者其他的宝贝挑一挑</p></blockquote><h1 id="如果想出门"><a href="#如果想出门" class="headerlink" title="如果想出门"></a>如果想出门</h1><blockquote><p>现在外面有点<code>冷</code>啦，上衣一定要</p><h3>多套一件</h3><p></p></blockquote>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;如果不想出门&quot;&gt;&lt;a href=&quot;#如果不想出门&quot; class=&quot;headerlink&quot; title=&quot;如果不想出门&quot;&gt;&lt;/a&gt;如果不想出门&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;我给你点个外卖上去？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;例如&quot;&gt;
-      
+      &lt;h1 id=&quot;如果不想出门&quot;&gt;&lt;a href=&quot;#如果不想出门&quot; class=&quot;headerlink&quot; title=&quot;如果不想出门&quot;&gt;&lt;/a&gt;如果不想出门&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;我给你点个外卖上去？&lt;br&gt;&lt;/p&gt;&lt;/blockquote&gt;
     
     </summary>
     
+      <category term="生活" scheme="http://elevenlianm.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="秀恩爱" scheme="http://elevenlianm.com/tags/%E7%A7%80%E6%81%A9%E7%88%B1/"/>
     
   </entry>
   
