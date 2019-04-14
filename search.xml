@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[HTML]]></title>
+    <url>%2F2019%2F04%2F12%2F%E5%AD%A6%E4%B9%A0%2F%E5%89%8D%E7%AB%AF%2FHTML%2F</url>
+    <content type="text"><![CDATA[HTML相关的知识点总结HTML相关知识的总结（只列出不熟悉部分） HTML标签水平线标签1&lt;hr/&gt; 效果：在文字下方出现一行线，是单词 horizontal rule 的缩写示例： 文本格式化标签1. 粗体1&lt;strong&gt;&lt;/strong&gt; 效果：文字的斜体效果示例：我是粗体 2. 斜体1&lt;em&gt;&lt;/em&gt; 效果：文字的斜体效果示例：我是斜体 3. 删除线1&lt;del&gt;&lt;/del&gt; 效果：文字的删除线效果示例：我是删除线 4. 下划线1&lt;ins&gt;&lt;/ins&gt; 效果：文字的下划线效果示例：我是下划线 图片标签1&lt;img src=&quot;图像URL&quot; /&gt; 属性 属性值 描述 src URL 图像路径 alt 文本 不能显示时的替换文本 title 文本 鼠标悬停时显示的内容 width 像素 设置图像宽度 height 像素 设置图像高度 链接标签1&lt;a href=&quot;跳转目标&quot; target=&quot;目标窗口的弹出方式&quot;&gt;&lt;/a&gt; target属性： 值 描述 _blank 在新窗口中打开被链接文档。 _self 默认。在相同的框架中打开被链接文档。 _parent 文本 _top 在整个窗口中打开被链接文档。 framename 在指定的框架中打开被链接文档。 base标签1&lt;base target=&quot;_blank&quot; /&gt; base 设置整体链接的打开状态 特殊字符标签 特殊字符 描述 字符代码 空格符 &amp;nbsp; &copy; 版权 &amp;copy; 列表无序列表12345&lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt;&lt;/ul&gt; 示例： 无序列表 无序列表 无序列表 有序列表12345&lt;ol&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt; &lt;li&gt;&lt;/li&gt;&lt;/ol&gt; 示例： 无序列表 无序列表 无序列表 自定义列表1234&lt;dl&gt; &lt;dt&gt;定义标题&lt;/dt&gt; &lt;dd&gt;定义描述、解释&lt;/dd&gt;&lt;/dl&gt; 效果：常用于对术语或名词进行解释和描述，定义列表的列表项前没有任何项目符号。使用：一般用于网站底部跳转链接列表。示例： 定义标题 定义描述、解释 定义描述、解释 表格12345678910111213141516171819202122&lt;table&gt;&lt;caption&gt;&lt;/caption&gt; -------- 标题 &lt;thead&gt; &lt;tr&gt; &lt;th&gt;&lt;/th&gt; &lt;th&gt;&lt;/th&gt; &lt;th&gt;&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; 属性以及部分效果： 标题 属性名 含义 常用值 border 设置表格边框 像素值 cellspacing 设置单元格与单元格之间的空白距离 像素值(默认为2像素) cellpadding 设置单元格内容与边框间的空白距离 像素值(默认为1像素) width 设置表格宽度 像素值 height 设置表格宽度 像素值 align 设置表格在网页中的水平对齐方式 left、center、right]]></content>
+      <categories>
+        <category>学习</category>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[服务器代码更新操作命令]]></title>
+    <url>%2F2019%2F04%2F04%2F%E5%85%AC%E5%8F%B8%2F%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A3%E7%A0%81%E6%9B%B4%E6%96%B0%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[服务器代码更新操作命令有关服务器代码更新的命令（仅自用） 1. root账户登录1ssh -l root -p 22 222.73.159.67 2. 查看生产线程该操作需在root账户下进行 1netstat -anp | grep 端口号（例如：8090、80） 3. 杀死线程该操作需在root账户下进行 1kill -9 线程号 （例如：126578） 4. 启动程序以下命令都需要root账户下进行 1nohup ./mvnw -Pprod &amp; 等上个指令执行完毕后执行 1tail -f nohup.out]]></content>
+      <categories>
+        <category>公司</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[宝贝晚饭想吃啥？]]></title>
+    <url>%2F2019%2F04%2F03%2F%E7%94%9F%E6%B4%BB%2Fdinner%2F</url>
+    <content type="text"><![CDATA[如果不想出门 我给你点个外卖上去？ 例如吉野家-单人串点套餐宾果餐厅-澳洲牛排麻辣香锅-任性单人餐… 或者其他的宝贝挑一挑 如果想出门 现在外面有点冷啦，上衣一定要多套一件]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>秀恩爱</tag>
+      </tags>
+  </entry>
+</search>
