@@ -5,7 +5,7 @@
 # Site
 title: Eleven的博客
 subtitle:
-description:
+description: 一切烦恼的根源在于自己不够强。
 keywords:
 author: Eleven
 language: zh-CN
@@ -82,6 +82,14 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 ## Themes: https://hexo.io/themes/
 theme: next
 

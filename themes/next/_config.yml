@@ -158,7 +158,7 @@ baidu_push: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /about/ || user
+  #about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
@@ -239,7 +239,7 @@ avatar:
 toc:
   enable: true
   # Automatically add list number to toc.
-  number: true
+  number: false
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
@@ -611,15 +611,17 @@ disqus:
 # Alternative Disqus - Render comment component using Disqus API
 # Demo: https://suka.js.org/DisqusJS/
 disqusjs:
-  enable: false
+  enable: true
   # API Endpoint of Disqus API (https://disqus.com/api/)
   # leave api empty if you are able to connect to Disqus API
   # otherwise you need a reverse proxy for Disqus API
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api:
-  apikey: # register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  api: https://disqus.skk.moe/disqus/
+  apikey: T9LjJmp2HApLrHjXdg15d8VfMBlMBFNOBOUG2n8ylrMlMGbeY7JgiAAweJQRwlkI
+   # register new application from https://disqus.com/api/applications/
+  shortname: elevenlianm
+  # See: https://disqus.com/admin/settings/general/
 
 # Changyan
 changyan:
@@ -859,7 +861,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -883,15 +885,17 @@ local_search:
 chatra:
   enable: false
   async: true
-  id: # visit Dashboard to get your ChatraID
+  id: xsiG6qWkYSkPAdaEM
+  # visit Dashboard to get your ChatraID
   #embed: # unfinished experimental feature for developers, See: https://chatra.io/help/api/#injectto
 
 # Tidio Support
 # See: https://www.tidiochat.com
 # Dashboard: https://www.tidiochat.com/panel/dashboard
 tidio:
-  enable: false
-  key: # Public Key, get it from Dashboard, See: https://www.tidiochat.com/panel/settings/developer
+  enable: true
+  key: 57sde0i8qc5l4z2fxoprayyqqop9titw
+  # Public Key, get it from Dashboard, See: https://www.tidiochat.com/panel/settings/developer
 
 
 # ---------------------------------------------------------------
