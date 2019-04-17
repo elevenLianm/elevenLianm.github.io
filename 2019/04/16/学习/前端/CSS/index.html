@@ -106,7 +106,7 @@
 <meta property="og:site_name" content="Eleven的博客">
 <meta property="og:description" content="CSS相关的知识点总结CSS相关知识的总结">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-16T15:52:48.359Z">
+<meta property="og:updated_time" content="2019-04-17T14:58:26.905Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS">
 <meta name="twitter:description" content="CSS相关的知识点总结CSS相关知识的总结">
@@ -428,12 +428,24 @@
                 
               
 
-              <time title="创建时间：2019-04-16 14:10:36 / 修改时间：23:52:48" itemprop="dateCreated datePublished" datetime="2019-04-16T14:10:36+08:00">2019-04-16</time>
+              <time title="创建时间：2019-04-16 14:10:36" itemprop="dateCreated datePublished" datetime="2019-04-16T14:10:36+08:00">2019-04-16</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-04-17 22:58:26" itemprop="dateModified" datetime="2019-04-17T22:58:26+08:00">2019-04-17</time>
               
             
           </span>
@@ -525,10 +537,92 @@
 <p>使用font属性时，必须按照如上格式的<code>顺序</code>书写，<code>不能更换顺序</code>，各属性以空格隔开。<br>注：不需要设置的属性可以省略（取默认值），但必须保留font-size和font-family属性，否则font属性不起作用。</p>
 </blockquote>
 <p>示例：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">font</span>: <span class="selector-tag">italic</span> <span class="selector-tag">bold</span> 14<span class="selector-tag">px</span> "\5<span class="selector-tag">FAE</span>\8<span class="selector-tag">F6F</span>\96<span class="selector-tag">C5</span>\9<span class="selector-tag">ED1</span>";</span><br></pre></td></tr></table></figure></p>
-<h2 id="选择器（重点）"><a href="#选择器（重点）" class="headerlink" title="选择器（重点）"></a>选择器（重点）</h2><h3 id="标签选择器（元素选择器）"><a href="#标签选择器（元素选择器）" class="headerlink" title="标签选择器（元素选择器）"></a>标签选择器（元素选择器）</h3><blockquote>
-<p>指以HTML标签名作为选择器，按标签分类，给页面某一类标签指定统一的css样式。<br>基本语法格式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">标签名 &#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125; 或者</span><br><span class="line">元素名 &#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="选择器（重点）"><a href="#选择器（重点）" class="headerlink" title="选择器（重点）"></a>选择器（重点）</h1><h2 id="标签选择器（元素选择器）"><a href="#标签选择器（元素选择器）" class="headerlink" title="标签选择器（元素选择器）"></a>标签选择器（元素选择器）</h2><blockquote>
+<p>指以HTML标签名作为选择器，按标签分类，给页面某一类标签指定统一的css样式。<br>基本语法格式如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">标签名 &#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125; 或者</span><br><span class="line">元素名 &#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125;</span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<h3 id="类选择器"><a href="#类选择器" class="headerlink" title="类选择器"></a>类选择器</h3><p>类选择器使用”.”进行标识，后面紧跟类名，基本语法如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.类名 &#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="类选择器"><a href="#类选择器" class="headerlink" title="类选择器"></a>类选择器</h2><blockquote>
+<p>类选择器使用”.”进行标识，后面紧跟类名<br>标签调用class=”类名”即可</p>
+</blockquote>
+<p>基本语法如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.类名 &#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h3><blockquote>
+<ol>
+<li>长名称或词组用中横线命名。</li>
+<li>不建议用”_”来命名CSS选择器。</li>
+<li>不要用纯数字、中文命名。</li>
+</ol>
+</blockquote>
+<h2 id="多类名选择器"><a href="#多类名选择器" class="headerlink" title="多类名选择器"></a>多类名选择器</h2><blockquote>
+<p>可以给一个HTML标签添加多个类名<br>样式显示效果与HTML元素中<code>类名先后顺序无关</code>，受CSS样式<code>书写的上下顺序有关</code><br>各类名剑以空格隔开</p>
+</blockquote>
+<h2 id="id选择器"><a href="#id选择器" class="headerlink" title="id选择器"></a>id选择器</h2><blockquote>
+<p>id选择器使用”#”进行标识，后面跟id名。</p>
+</blockquote>
+<p>基本语法格式如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#id&#123;属性1:属性值1;属性2:属性值2;属性3:属性值3&#125;</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>大多数HTML元素都有id属性，元素id值唯一。</p>
+</blockquote>
+<h2 id="id选择器和类选择器区别"><a href="#id选择器和类选择器区别" class="headerlink" title="id选择器和类选择器区别"></a>id选择器和类选择器区别</h2><blockquote>
+<p>同一页面，不允许有相同名字的id对象出现，但是允许相同名字的class。</p>
+</blockquote>
+<h2 id="通配符选择器"><a href="#通配符选择器" class="headerlink" title="通配符选择器"></a>通配符选择器</h2><blockquote>
+<p>通配符选择器用“*”表示，它是所有选择器中作用范围最广的。能匹配页面中所有元素。</p>
+</blockquote>
+<p>基本格式如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*&#123;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&#125;</span><br></pre></td></tr></table></figure></p>
+<p>例如下面的代码，使用通配符选择器定义CSS样式，清除所有HTML标记的默认边距。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*&#123;margin:0; padding:0;&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h2><blockquote>
+<p>首先，这也是个选择器，伪类选择器用于向某些选择器添加特殊效果。比如给链接添加特殊效果，比如可以选择第1个、第n个元素。<br>伪类选择器才用两个点，即冒号表示，比如 <code>:link()</code></p>
+</blockquote>
+<h3 id="链接伪类选择器"><a href="#链接伪类选择器" class="headerlink" title="链接伪类选择器"></a>链接伪类选择器</h3><ul>
+<li><code>:link</code>   未访问的链接</li>
+<li><code>:visited</code>   已访问的链接</li>
+<li><code>:hover</code>   鼠标移动到链接上</li>
+<li><code>:active</code>  选定的链接（鼠标点击不松开）<blockquote>
+<p>以上顺序书写时不能颠倒</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="结构（位置）伪类选择器（CSS3）"><a href="#结构（位置）伪类选择器（CSS3）" class="headerlink" title="结构（位置）伪类选择器（CSS3）"></a>结构（位置）伪类选择器（CSS3）</h3><ul>
+<li><code>:first-child</code>：选取属于其父元素的首个子元素的指定选择器</li>
+<li><code>:last-child</code>：选取属于其父元素的最后一个子元素的指定选择器</li>
+<li><code>:nth-child(n)</code>：匹配属于其父元素的第N个子元素，不论元素的类型。even表示偶数 ，odd表示奇数，用公式n从0开始</li>
+<li><code>:nth-last-child(n)</code>：匹配属于其父元素的第N个子元素的每一个元素，不论元素的类型  从最后一个子元素开始计数。<blockquote>
+<p>注意：其中以上的n可以是数字、关键词或公式。例如：<code>even表示偶数</code>,<code>odd表示奇数</code>，<code>用公式n从0开始,2n是2的倍数，2，3n是3的倍数</code>，<code>0表示不选择</code></p>
+</blockquote>
+</li>
+</ul>
+<h4 id="结构伪类选择器的坑"><a href="#结构伪类选择器的坑" class="headerlink" title="结构伪类选择器的坑"></a>结构伪类选择器的坑</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--代码块1--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">p</span><span class="selector-pseudo">:first-child</span> &#123;</span></span><br><span class="line"><span class="undefined">            background-color: bisque;</span></span><br><span class="line"><span class="undefined">        &#125;</span></span><br><span class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>测试<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--代码块2--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">p</span><span class="selector-pseudo">:first-child</span> &#123;</span></span><br><span class="line"><span class="undefined">            background-color: bisque;</span></span><br><span class="line"><span class="undefined">        &#125;</span></span><br><span class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>测试<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>在上述代码块1的情况下，:first-child不会起作用。将代码修改为代码块2后:first-child生效。<br>原因：</p>
+<ol>
+<li><code>:first-child 如果父元素的第一个元素不是寻找的标签的话，会不起作用。:last-child、:nth-child(n)、:nth-last-child(n)此三个同理</code>。</li>
+<li><code>:first-child、:last-child、:nth-child(n)、:nth-last-child(n)实际是将父元素中所有子元素（不但是冒号前的元素所属种类）按序排列。然后选出给定位置的元素，如果该元素与冒号前元素种类一致，则改变样式。否则不改变样式。</code></li>
+</ol>
+</blockquote>
+<p>因此，对于父元素内复杂排序的不同元素我们可以选择使用:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:first-of-type、:last-of-type、:nth-of-type(n)、:nth-last-of-type(n)。</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>这四种伪类选择器与上述唯一不同的是他们是将父元素中与冒号前元素相同类型的元素筛选出来排序，然后定位修改样式。可以有效避免代码块1的情况</p>
+</blockquote>
+<h3 id="目标伪类选择器"><a href="#目标伪类选择器" class="headerlink" title="目标伪类选择器"></a>目标伪类选择器</h3><blockquote>
+<p><code>:target</code>目标伪类选择器：选择可用于选取当前活动的目标元素</p>
+</blockquote>
+<h1 id="CSS外观属性"><a href="#CSS外观属性" class="headerlink" title="CSS外观属性"></a>CSS外观属性</h1><h2 id="color：文本颜色"><a href="#color：文本颜色" class="headerlink" title="color：文本颜色"></a>color：文本颜色</h2><blockquote>
+<p>用于定义文本的颜色，取值方式有如下三种：</p>
+<ol>
+<li>预定义的颜色值，如red，green，blue等。</li>
+<li>十六进制，如#FF0000，#FF6600等，实际工作中，十六进制是最常用的定义颜色的方式。</li>
+<li>RGB代码，如红色可以表示为rgb(255，0，0)或rgb(100%，0%，0%)。</li>
+</ol>
+</blockquote>
+<h2 id="line-height-行间距"><a href="#line-height-行间距" class="headerlink" title="line-height:行间距"></a>line-height:行间距</h2><blockquote>
+<p>用于设置行间距，就是行与行之间的距离，即字符的垂直距离，一般称为行高。line-height常用属性值单位有三种，分别为像素px，相对值em和百分比%，实际工作中更多使用px。<br>一般行高比字号大7、8像素即可。</p>
+</blockquote>
+<h2 id="text-align-水平对齐"><a href="#text-align-水平对齐" class="headerlink" title="text-align:水平对齐"></a>text-align:水平对齐</h2><blockquote>
+<p>用于设置文本内容的水平对齐方式，相当于html中的align对齐属性。<br>其可用属性如下：<br>left：左对齐（默认值）<br>center：居中<br>right：右对齐</p>
+</blockquote>
+<h2 id="text-indent-首行缩进"><a href="#text-indent-首行缩进" class="headerlink" title="text-indent:首行缩进"></a>text-indent:首行缩进</h2><blockquote>
+<p>text-indent属性用于设置首行文本的缩进，其属性值可为不同单位的数值、em字符宽度的倍数、或相对于浏览器宽度的百分比%，允许负值，建议使用em作为设置单位。</p>
+</blockquote>
 
       
     </div>
@@ -810,7 +904,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS相关的知识点总结"><span class="nav-text">CSS相关的知识点总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS样式规则"><span class="nav-text">CSS样式规则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS字体样式属性"><span class="nav-text">CSS字体样式属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#font-size-字体大小"><span class="nav-text">font-size:字体大小</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-family-字体"><span class="nav-text">font-family:字体</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用技巧"><span class="nav-text">常用技巧</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unicode字体"><span class="nav-text">Unicode字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-weight-字体粗细"><span class="nav-text">font-weight:字体粗细</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-style-字体风格"><span class="nav-text">font-style:字体风格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-综合设置字体样式（重点）"><span class="nav-text">font:综合设置字体样式（重点）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#选择器（重点）"><span class="nav-text">选择器（重点）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#标签选择器（元素选择器）"><span class="nav-text">标签选择器（元素选择器）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#类选择器"><span class="nav-text">类选择器</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS相关的知识点总结"><span class="nav-text">CSS相关的知识点总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS样式规则"><span class="nav-text">CSS样式规则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS字体样式属性"><span class="nav-text">CSS字体样式属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#font-size-字体大小"><span class="nav-text">font-size:字体大小</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-family-字体"><span class="nav-text">font-family:字体</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用技巧"><span class="nav-text">常用技巧</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unicode字体"><span class="nav-text">Unicode字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-weight-字体粗细"><span class="nav-text">font-weight:字体粗细</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-style-字体风格"><span class="nav-text">font-style:字体风格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-综合设置字体样式（重点）"><span class="nav-text">font:综合设置字体样式（重点）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#选择器（重点）"><span class="nav-text">选择器（重点）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标签选择器（元素选择器）"><span class="nav-text">标签选择器（元素选择器）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#类选择器"><span class="nav-text">类选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命名规范"><span class="nav-text">命名规范</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多类名选择器"><span class="nav-text">多类名选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#id选择器"><span class="nav-text">id选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#id选择器和类选择器区别"><span class="nav-text">id选择器和类选择器区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#通配符选择器"><span class="nav-text">通配符选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪类选择器"><span class="nav-text">伪类选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#链接伪类选择器"><span class="nav-text">链接伪类选择器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结构（位置）伪类选择器（CSS3）"><span class="nav-text">结构（位置）伪类选择器（CSS3）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#结构伪类选择器的坑"><span class="nav-text">结构伪类选择器的坑</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#目标伪类选择器"><span class="nav-text">目标伪类选择器</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS外观属性"><span class="nav-text">CSS外观属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#color：文本颜色"><span class="nav-text">color：文本颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#line-height-行间距"><span class="nav-text">line-height:行间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#text-align-水平对齐"><span class="nav-text">text-align:水平对齐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#text-indent-首行缩进"><span class="nav-text">text-indent:首行缩进</span></a></li></ol></li></ol></div>
             
 
           </div>
