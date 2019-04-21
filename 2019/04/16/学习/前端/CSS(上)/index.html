@@ -98,18 +98,18 @@
 
 
 
-  <meta name="description" content="CSS相关的知识点总结CSS相关知识的总结">
+  <meta name="description" content="CSS相关的知识点总结CSS相关知识的总结（上）">
 <meta name="keywords" content="CSS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSS">
-<meta property="og:url" content="http://elevenlianm.com/2019/04/16/学习/前端/CSS/index.html">
+<meta property="og:title" content="CSS(上)">
+<meta property="og:url" content="http://elevenlianm.com/2019/04/16/学习/前端/CSS(上)/index.html">
 <meta property="og:site_name" content="Eleven的博客">
-<meta property="og:description" content="CSS相关的知识点总结CSS相关知识的总结">
+<meta property="og:description" content="CSS相关的知识点总结CSS相关知识的总结（上）">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-20T15:41:58.314Z">
+<meta property="og:updated_time" content="2019-04-21T15:18:48.817Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CSS">
-<meta name="twitter:description" content="CSS相关的知识点总结CSS相关知识的总结">
+<meta name="twitter:title" content="CSS(上)">
+<meta name="twitter:description" content="CSS相关的知识点总结CSS相关知识的总结（上）">
 
 
 
@@ -119,7 +119,7 @@
 
   
   
-  <link rel="canonical" href="http://elevenlianm.com/2019/04/16/学习/前端/CSS/">
+  <link rel="canonical" href="http://elevenlianm.com/2019/04/16/学习/前端/CSS(上)/">
 
 
 
@@ -129,7 +129,7 @@
   };
 </script>
 
-  <title>CSS | Eleven的博客</title>
+  <title>CSS(上) | Eleven的博客</title>
   
 
 
@@ -385,7 +385,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://elevenlianm.com/2019/04/16/学习/前端/CSS/">
+    <link itemprop="mainEntityOfPage" href="http://elevenlianm.com/2019/04/16/学习/前端/CSS(上)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Eleven">
@@ -402,7 +402,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CSS
+          <h1 class="post-title" itemprop="name headline">CSS(上)
 
               
             
@@ -445,7 +445,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-04-20 23:41:58" itemprop="dateModified" datetime="2019-04-20T23:41:58+08:00">2019-04-20</time>
+                <time title="修改时间：2019-04-21 23:18:48" itemprop="dateModified" datetime="2019-04-21T23:18:48+08:00">2019-04-21</time>
               
             
           </span>
@@ -504,7 +504,7 @@
       
 
       
-        <h1 id="CSS相关的知识点总结"><a href="#CSS相关的知识点总结" class="headerlink" title="CSS相关的知识点总结"></a>CSS相关的知识点总结</h1><p><code>CSS相关知识的总结</code><br><a id="more"></a></p>
+        <h1 id="CSS相关的知识点总结"><a href="#CSS相关的知识点总结" class="headerlink" title="CSS相关的知识点总结"></a>CSS相关的知识点总结</h1><p><code>CSS相关知识的总结（上）</code><br><a id="more"></a></p>
 <h1 id="CSS样式规则"><a href="#CSS样式规则" class="headerlink" title="CSS样式规则"></a>CSS样式规则</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选择器 &#123;</span><br><span class="line">	属性:值;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="CSS字体样式属性"><a href="#CSS字体样式属性" class="headerlink" title="CSS字体样式属性"></a>CSS字体样式属性</h1><h2 id="font-size-字体大小"><a href="#font-size-字体大小" class="headerlink" title="font-size:字体大小"></a>font-size:字体大小</h2><blockquote>
 <p>作用：设置自字号，推荐使用像素单位px<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h1</span>&#123;</span><br><span class="line">	<span class="attribute">font-size</span>:<span class="number">14px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
@@ -821,7 +821,7 @@
 <li>E::firstletter文本的第一个单词或字（如中文、日文、韩文等）</li>
 <li>E::first-line文本第一行；</li>
 <li>E::selection 可改变鼠标拖动选中文本的样式；</li>
-<li>E::before和E::after<br>在E元素<code>内部</code>开始位置和结束位置创建一个元素，该元素为行内元素，且必须结合content属性使用。<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">4. <span class="selector-tag">E</span><span class="selector-pseudo">::befor</span> &#123;</span><br><span class="line">	<span class="attribute">content</span>:<span class="string">"开始"</span>；</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">E</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">	<span class="attribute">content</span>:<span class="string">"结束"</span>；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li>E::before和E::after<br>在E元素<code>内部</code>开始位置和结束位置创建一个元素，该元素为行内元素，且必须结合content属性使用。<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">E</span><span class="selector-pseudo">::befor</span> &#123;</span><br><span class="line">	<span class="attribute">content</span>:<span class="string">"开始"</span>；</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">E</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">	<span class="attribute">content</span>:<span class="string">"结束"</span>；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 </blockquote>
@@ -971,6 +971,65 @@
 <h2 id="CSS继承性"><a href="#CSS继承性" class="headerlink" title="CSS继承性"></a>CSS继承性</h2><blockquote>
 <p>继承性是指书写CSS样式表时，子标签会继承父标签的某些样式，如文本颜色和字号。想要设置一个可继承的属性，只需将它应用于父元素即可。<br>注意：恰当的使用继承可以简化代码，降低CSS样式复杂性。但是，如果在网页中所有的元素都大量继承样式，那么判断样式的来源就会很困难，<code>所以对于字体、文本属性等网页中通用的样式可以使用继承。</code>例如，字体、字号、颜色、行距等可以在body元素中统一设置，然后通过继承影响文档中所有文本。<br>并不是所有CSS属性都可以继承，例如，下面的属性就不具有继承性：边框、外边距、内边距、背景、定位、元素高属性。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*其他元素会继承font-size属性*/</span></span><br><span class="line"><span class="selector-tag">body</span>&#123;</span><br><span class="line"><span class="attribute">font-size</span>: <span class="number">14px</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 </blockquote>
+<h2 id="CSS优先级"><a href="#CSS优先级" class="headerlink" title="CSS优先级"></a>CSS优先级</h2><blockquote>
+<p>定义CSS样式时，经常出现两个或更多规则应用在同一元素上，这时就会出现优先级问题。<br>在考虑权重时，初学者还需要注意一些特殊情况，具体如下：</p>
+<blockquote>
+<p><code>继承样式的权重为0。</code>即使在嵌套结构当中，不管父元素样式的权重多大，被子元素继承时，他的权重都为0，也就是说子元素定义的样式会覆盖继承来的样式。<br><code>行内样式优先。</code>应用style属性的元素，其行内样式的权重非常高，可以理解为远大于100。总之，他拥有比上面提到的选择器都大的优先级。<br><code>权重相同时，CSS遵循就近原则。</code>也就是说靠近元素的样式具有最大的优先级，或者说排在最后的样式优先级最大。<br><code>CSS定义了一个!important命令，该命令被赋予最大的优先级。</code>也就是说不管权重如何以及样式位置的远近，!important都具有最大优先级。</p>
+</blockquote>
+</blockquote>
+<h2 id="CSS特殊性（Specificity）"><a href="#CSS特殊性（Specificity）" class="headerlink" title="CSS特殊性（Specificity）"></a>CSS特殊性（Specificity）</h2><blockquote>
+<p>关于CSS权重，我们需要一套计算公式来去计算，这个就是CSS Specificity，我们称为CSS特性或称非凡性，它是一个衡量CSS优先级的一个标准，具体规范如下：</p>
+<blockquote>
+<p>Specificity用一个四位的数字串（CSS2是三位）来表示，更像四个级别值从左到右，左面最大，一级大于一级，数位间没有进制，级别间不可超越。</p>
+</blockquote>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">继承或者* 的贡献值</th>
+<th style="text-align:center">0,0,0,0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">每个元素（标签）贡献值为</td>
+<td style="text-align:center">0,0,0,1</td>
+</tr>
+<tr>
+<td style="text-align:center">每个类，伪类贡献值为</td>
+<td style="text-align:center">0,0,1,0</td>
+</tr>
+<tr>
+<td style="text-align:center">每个ID贡献值为</td>
+<td style="text-align:center">0,1,0,0</td>
+</tr>
+<tr>
+<td style="text-align:center">每个行内样式贡献值为</td>
+<td style="text-align:center">1,0,0,0</td>
+</tr>
+<tr>
+<td style="text-align:center">每个!important贡献值为</td>
+<td style="text-align:center">∞无穷大</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>权重是可以叠加的<br>比如的例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">div ul li -----&gt; 0,0,0,3</span><br><span class="line">.nav ul li -----&gt; 0,0,1,2</span><br><span class="line">a:hover -----&gt;0,0,1,1</span><br><span class="line">.nav a -----&gt; 0,0,1,1</span><br><span class="line">#nav p -----&gt; 0,1,0,1</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>注意：</p>
+<ol>
+<li>数位没有进制，比如 0,0,0,5+0,0,0,5=0,0,0,10而不是0,0,1,0</li>
+<li>继承的权重是0<br>总结优先级：</li>
+<li>使用了!important声明的规则。</li>
+<li>内嵌在HTML元素的style属性里面的声明。</li>
+<li>使用了ID选择器的规则。</li>
+<li>使用了类选择器、属性选择器、伪元素和伪类选择器的规则。</li>
+<li>使用了元素选择器的规则。</li>
+<li>只包含一个通用选择器的规则。</li>
+<li>同一类选择器则遵循就近原则。</li>
+</ol>
+</blockquote>
 
       
     </div>
@@ -1005,7 +1064,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="http://elevenlianm.com/2019/04/16/学习/前端/CSS/" title="CSS">http://elevenlianm.com/2019/04/16/学习/前端/CSS/</a>
+    <a href="http://elevenlianm.com/2019/04/16/学习/前端/CSS(上)/" title="CSS(上)">http://elevenlianm.com/2019/04/16/学习/前端/CSS(上)/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！</li>
@@ -1252,7 +1311,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS相关的知识点总结"><span class="nav-text">CSS相关的知识点总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS样式规则"><span class="nav-text">CSS样式规则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS字体样式属性"><span class="nav-text">CSS字体样式属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#font-size-字体大小"><span class="nav-text">font-size:字体大小</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-family-字体"><span class="nav-text">font-family:字体</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用技巧"><span class="nav-text">常用技巧</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unicode字体"><span class="nav-text">Unicode字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-weight-字体粗细"><span class="nav-text">font-weight:字体粗细</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-style-字体风格"><span class="nav-text">font-style:字体风格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-综合设置字体样式（重点）"><span class="nav-text">font:综合设置字体样式（重点）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#选择器（重点）"><span class="nav-text">选择器（重点）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标签选择器（元素选择器）"><span class="nav-text">标签选择器（元素选择器）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#类选择器"><span class="nav-text">类选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命名规范"><span class="nav-text">命名规范</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多类名选择器"><span class="nav-text">多类名选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#id选择器"><span class="nav-text">id选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#id选择器和类选择器区别"><span class="nav-text">id选择器和类选择器区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#通配符选择器"><span class="nav-text">通配符选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪类选择器"><span class="nav-text">伪类选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#链接伪类选择器"><span class="nav-text">链接伪类选择器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结构（位置）伪类选择器（CSS3）"><span class="nav-text">结构（位置）伪类选择器（CSS3）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#结构伪类选择器的坑"><span class="nav-text">结构伪类选择器的坑</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#目标伪类选择器"><span class="nav-text">目标伪类选择器</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS外观属性"><span class="nav-text">CSS外观属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#color：文本颜色"><span class="nav-text">color：文本颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#line-height-行间距"><span class="nav-text">line-height:行间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#text-align-水平对齐"><span class="nav-text">text-align:水平对齐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#text-indent-首行缩进"><span class="nav-text">text-indent:首行缩进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#letter-spacing-字间距"><span class="nav-text">letter-spacing:字间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#word-spacing-单词间距"><span class="nav-text">word-spacing:单词间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#颜色半透明（CSS3）"><span class="nav-text">颜色半透明（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字阴影（CSS3）"><span class="nav-text">文字阴影（CSS3）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引入CSS样式表"><span class="nav-text">引入CSS样式表</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#行内式（内联样式）"><span class="nav-text">行内式（内联样式）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内部样式表（内嵌式）"><span class="nav-text">内部样式表（内嵌式）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#外部样式表（外链式）"><span class="nav-text">外部样式表（外链式）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三种样式表总结"><span class="nav-text">三种样式表总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#标签的显示模式（display）"><span class="nav-text">标签的显示模式（display）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#块级元素（block-level）"><span class="nav-text">块级元素（block-level）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#行内元素（inline-level）"><span class="nav-text">行内元素（inline-level）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注意"><span class="nav-text">注意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#行内块元素（inline-block）"><span class="nav-text">行内块元素（inline-block）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标签显示模式转换-display"><span class="nav-text">标签显示模式转换 display</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS复合选择器"><span class="nav-text">CSS复合选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#交集选择器"><span class="nav-text">交集选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#并集选择器"><span class="nav-text">并集选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后代选择器"><span class="nav-text">后代选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#子元素选择器"><span class="nav-text">子元素选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#属性选择器"><span class="nav-text">属性选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪元素选择器（CSS3）"><span class="nav-text">伪元素选择器（CSS3）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS背景（background）"><span class="nav-text">CSS背景（background）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#背景（image）"><span class="nav-text">背景（image）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景平铺（repeat）"><span class="nav-text">背景平铺（repeat）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景位置（position）"><span class="nav-text">背景位置（position）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景固定（attachment）"><span class="nav-text">背景固定（attachment）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景书写"><span class="nav-text">背景书写</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景透明（CSS3）"><span class="nav-text">背景透明（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景缩放（CSS3）"><span class="nav-text">背景缩放（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多背景（CSS3）"><span class="nav-text">多背景（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字凹凸效果"><span class="nav-text">文字凹凸效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#导航栏案例"><span class="nav-text">导航栏案例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#文本修饰"><span class="nav-text">文本修饰</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS三大特性"><span class="nav-text">CSS三大特性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS层叠性"><span class="nav-text">CSS层叠性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS继承性"><span class="nav-text">CSS继承性</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS相关的知识点总结"><span class="nav-text">CSS相关的知识点总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS样式规则"><span class="nav-text">CSS样式规则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS字体样式属性"><span class="nav-text">CSS字体样式属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#font-size-字体大小"><span class="nav-text">font-size:字体大小</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-family-字体"><span class="nav-text">font-family:字体</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用技巧"><span class="nav-text">常用技巧</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unicode字体"><span class="nav-text">Unicode字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-weight-字体粗细"><span class="nav-text">font-weight:字体粗细</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-style-字体风格"><span class="nav-text">font-style:字体风格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#font-综合设置字体样式（重点）"><span class="nav-text">font:综合设置字体样式（重点）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#选择器（重点）"><span class="nav-text">选择器（重点）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标签选择器（元素选择器）"><span class="nav-text">标签选择器（元素选择器）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#类选择器"><span class="nav-text">类选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命名规范"><span class="nav-text">命名规范</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多类名选择器"><span class="nav-text">多类名选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#id选择器"><span class="nav-text">id选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#id选择器和类选择器区别"><span class="nav-text">id选择器和类选择器区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#通配符选择器"><span class="nav-text">通配符选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪类选择器"><span class="nav-text">伪类选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#链接伪类选择器"><span class="nav-text">链接伪类选择器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结构（位置）伪类选择器（CSS3）"><span class="nav-text">结构（位置）伪类选择器（CSS3）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#结构伪类选择器的坑"><span class="nav-text">结构伪类选择器的坑</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#目标伪类选择器"><span class="nav-text">目标伪类选择器</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS外观属性"><span class="nav-text">CSS外观属性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#color：文本颜色"><span class="nav-text">color：文本颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#line-height-行间距"><span class="nav-text">line-height:行间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#text-align-水平对齐"><span class="nav-text">text-align:水平对齐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#text-indent-首行缩进"><span class="nav-text">text-indent:首行缩进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#letter-spacing-字间距"><span class="nav-text">letter-spacing:字间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#word-spacing-单词间距"><span class="nav-text">word-spacing:单词间距</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#颜色半透明（CSS3）"><span class="nav-text">颜色半透明（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字阴影（CSS3）"><span class="nav-text">文字阴影（CSS3）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引入CSS样式表"><span class="nav-text">引入CSS样式表</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#行内式（内联样式）"><span class="nav-text">行内式（内联样式）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内部样式表（内嵌式）"><span class="nav-text">内部样式表（内嵌式）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#外部样式表（外链式）"><span class="nav-text">外部样式表（外链式）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三种样式表总结"><span class="nav-text">三种样式表总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#标签的显示模式（display）"><span class="nav-text">标签的显示模式（display）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#块级元素（block-level）"><span class="nav-text">块级元素（block-level）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#行内元素（inline-level）"><span class="nav-text">行内元素（inline-level）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注意"><span class="nav-text">注意</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#行内块元素（inline-block）"><span class="nav-text">行内块元素（inline-block）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标签显示模式转换-display"><span class="nav-text">标签显示模式转换 display</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS复合选择器"><span class="nav-text">CSS复合选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#交集选择器"><span class="nav-text">交集选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#并集选择器"><span class="nav-text">并集选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后代选择器"><span class="nav-text">后代选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#子元素选择器"><span class="nav-text">子元素选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#属性选择器"><span class="nav-text">属性选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪元素选择器（CSS3）"><span class="nav-text">伪元素选择器（CSS3）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS背景（background）"><span class="nav-text">CSS背景（background）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#背景（image）"><span class="nav-text">背景（image）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景平铺（repeat）"><span class="nav-text">背景平铺（repeat）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景位置（position）"><span class="nav-text">背景位置（position）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景固定（attachment）"><span class="nav-text">背景固定（attachment）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景书写"><span class="nav-text">背景书写</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景透明（CSS3）"><span class="nav-text">背景透明（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景缩放（CSS3）"><span class="nav-text">背景缩放（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多背景（CSS3）"><span class="nav-text">多背景（CSS3）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字凹凸效果"><span class="nav-text">文字凹凸效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#导航栏案例"><span class="nav-text">导航栏案例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#文本修饰"><span class="nav-text">文本修饰</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSS三大特性"><span class="nav-text">CSS三大特性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS层叠性"><span class="nav-text">CSS层叠性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS继承性"><span class="nav-text">CSS继承性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS优先级"><span class="nav-text">CSS优先级</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS特殊性（Specificity）"><span class="nav-text">CSS特殊性（Specificity）</span></a></li></ol></li></ol></div>
             
 
           </div>
