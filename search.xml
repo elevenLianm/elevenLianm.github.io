@@ -50,7 +50,7 @@
   <entry>
     <title><![CDATA[服务器代码更新操作命令]]></title>
     <url>%2F2019%2F04%2F04%2F%E5%85%AC%E5%8F%B8%2F%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%A3%E7%A0%81%E6%9B%B4%E6%96%B0%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[服务器代码更新操作命令有关服务器代码更新的命令（仅自用） 杂项12前端打包：yarn run webpack:prod 服务器代码更新root账户登录1ssh -l root -p 22 222.73.159.67 查看生产线程该操作需在root账户下进行1netstat -anp | grep 端口号（例如：8090、80） 杀死线程该操作需在root账户下进行1kill -9 线程号 （例如：126578） 打包以下命令都需要root账户下进行1./mvnw -Pprod package 启动程序以下命令都需要root账户下进行1nohup java -server -Xms2048m -Xmx2048m -jar hg-platform-0.0.1-SNAPSHOT.war &amp; 等上个指令执行完毕后执行1tail -f nohup.out 数据库操作登录mysql1mysql -u hguser -p drop 数据库1drop database hgplatform; 新建数据库1create database hgplatform default charset utf8mb4 collate utf8mb4_general_ci; Elasticsearch操作12清除Elasticsearch索引：curl -XDELETE http://localhost:9200/_all]]></content>
+    <content type="text"><![CDATA[服务器代码更新操作命令有关服务器代码更新的命令（仅自用） 杂项12前端打包：yarn run webpack:prod 服务器代码更新root账户登录1ssh -l root -p 22 222.73.159.67 查看生产线程该操作需在root账户下进行1netstat -anp | grep 端口号（例如：8090、80） 杀死线程该操作需在root账户下进行1kill -9 线程号 （例如：126578） 打包以下命令都需要root账户下进行1./mvnw -Pprod package 启动程序以下命令都需要root账户下进行进入到target目录1cd ./target 1nohup java -server -Xms2048m -Xmx2048m -jar hg-platform-0.0.1-SNAPSHOT.war &amp; 等上个指令执行完毕后执行1tail -f nohup.out 数据库操作登录mysql1mysql -u hguser -p drop 数据库1drop database hgplatform; 新建数据库1create database hgplatform default charset utf8mb4 collate utf8mb4_general_ci; 导出部分表结构1mysqldump -hIP地址 -u数据库用户名 -p密码 -d 数据库名称 表名1,表名2 &gt; 文件名.sql; 导入表结构1mysql -hIP地址 -u数据库用户名 -p密码 数据库名称 &lt; 文件名.sql; Elasticsearch操作12清除Elasticsearch索引：curl -XDELETE http://localhost:9200/_all]]></content>
       <categories>
         <category>公司</category>
       </categories>
