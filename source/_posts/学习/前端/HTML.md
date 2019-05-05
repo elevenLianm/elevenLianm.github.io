@@ -284,7 +284,7 @@ type|submit|提交按钮
 type|reset|重置按钮
 type|image|图像形式的提交按钮
 type|file|文件域
-name|用户自定义|空间名称
+name|用户自定义|控件名称
 value|用户自定义|控件默认文本值
 size|正整数|控件在页面中显示的宽度
 checked|checked|定义选择控件默认被选中的项
